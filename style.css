@@ -1,0 +1,96 @@
+body {
+    font-family: 'Berkshire Swash', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flexible-container {
+    display: flex;
+    padding: 50px;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.orange-color {
+    color: darkorange;
+}
+
+.half-width {
+    width: 50%;
+}
+
+#hero-photo img {
+    width: 35em;
+    margin-left: 10%;
+}
+
+.link-button {
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(255, 208, 0), rgb(255, 166, 0));
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#dream-big-img img {
+    width: 30em;
+}
+
+#Experiences {
+    text-align: center;
+    color: rgb(0, 160, 40);
+    text-shadow: 0 5px 10px rgb(255, 166, 0);
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.Experiences-item {
+    width: 40%;
+    margin: 0 1%;
+    padding-left: 2%;
+    box-shadow: 2px 3px 20px gray;
+    border-radius: 10px;
+}
+
+#full-stack-Experience {
+    border-left: 20px solid;
+    border-image: linear-gradient(to top, rgba(247, 15, 255), rgba(77, 199, 255), rgba(0, 6, 8));
+    border-image-slice: 1;
+}
+
+#web-dev-Experiences {
+    border-left: 20px solid;
+    border-image: linear-gradient(to top, rgba(255, 15, 15), rgba(255, 238, 0));
+    border-image-slice: 1;
+}
+
+footer {
+    display: ;
+    height: 20vh;
+    width: auto;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0 5px gray;
+}
+
+footer h4 {
+    margin: auto;
+}
