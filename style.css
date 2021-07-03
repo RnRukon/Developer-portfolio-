@@ -72,7 +72,7 @@ h1 {
 
 #full-stack-Experience {
     border-left: 20px solid;
-    border-image: linear-gradient(to top, rgba(247, 15, 255), rgba(77, 199, 255), rgba(0, 6, 8));
+    border-image: linear-gradient(to top, rgba(247, 15, 255), rgba(77, 199, 255), rgba(77, 55, 155));
     border-image-slice: 1;
 }
 
