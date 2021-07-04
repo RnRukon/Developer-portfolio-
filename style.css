@@ -141,6 +141,9 @@ h1 {
         #full-stack-Experience h1,#web-dev-Experiences h1 {
            font-size: 30px;
         }
+        section{
+            padding: 5px;
+        }
     
 
     }
