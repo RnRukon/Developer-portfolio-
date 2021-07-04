@@ -7,7 +7,7 @@ body {
 .flexible-container {
     display: flex;
     padding: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
     justify-content: center;
 }
 
@@ -22,11 +22,15 @@ h1 {
 .half-width {
     width: 50%;
 }
-
+.half-width h3 span{
+        color: crimson;
+}
 #hero-photo img {
     width: 35em;
     margin-left: 10%;
 }
+
+
 
 .link-button {
     text-decoration: none;
@@ -49,6 +53,9 @@ h1 {
 #dream-big-img img {
     width: 30em;
 }
+
+
+
 
 #Experiences {
     text-align: center;
@@ -76,21 +83,149 @@ h1 {
     border-image-slice: 1;
 }
 
+
+
+
+
 #web-dev-Experiences {
     border-left: 20px solid;
     border-image: linear-gradient(to top, rgba(255, 15, 15), rgba(255, 238, 0));
     border-image-slice: 1;
 }
 
+
+@media only screen and (max-width: 1280px) {
+
+    #hero-photo img {
+        width: 25em;
+        margin-top: 40%;
+        margin-left: 10%;
+    }
+
+    #dream-big-img img {
+        width: 30em;
+    }
+
+    #full-stack-Experience,#web-dev-Experiences {
+        height: 20%;
+    }
+    
+    
+    #full-stack-Experience h1,#web-dev-Experiences h1 {
+       font-size: 40px;
+    }
+    }
+
+
+
+    @media only screen and (max-width: 900px) {
+        #hero-photo img {
+            width: 25em;
+            margin-top: 55%;
+            margin-right: 20px;
+            
+        }
+        .half-width h1{
+            font-size: 45px
+        }
+        #dream-big-img img {
+            width: 25em;
+            margin-top: 45%;
+        }
+
+        #full-stack-Experience,#web-dev-Experiences {
+            height: 15%;
+        }
+        
+        
+        #full-stack-Experience h1,#web-dev-Experiences h1 {
+           font-size: 30px;
+        }
+    
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .top-banner{
+            background-image:url(images/Rukon.png) ;
+            background-size: 60%;
+            background-position-x: right;
+            
+            
+        }
+        #dream-big-img img {
+            margin-top: 0%;
+        }
+
+        #hero-photo img{
+            display: none;
+        }
+
+        .half-width{
+            width: 100%;
+            display: block;
+        }
+        .half-width h1{
+            font-size: 30px
+        }
+        .flexible-container{
+            display: block;
+        }
+        #full-stack-Experience,#web-dev-Experiences {
+            height: 15%;
+            width: 90%;
+            text-align: center
+        }
+        
+
+    }
+
+
+
+    @media only screen and (max-width: 360px) {
+       
+        #Rukon-Uddin-hero-title{
+            font-size: 25px;
+           }
+        #dream-big-img img {
+            margin-top: 0%;
+            width: 100%;
+            
+        }
+
+        
+       
+        
+        #full-stack-Experience,#web-dev-Experiences {
+            height: 10%;
+            width: 90%;
+            text-align: center
+        }
+       .flexible-container{
+           padding: 10px
+       }
+
+       #Experiences{
+           font-size: 40px
+       }
+       .half-width h3{
+        font-size: 18px
+       }
+       
+      
+    }
+
 footer {
-    display: ;
+    
     height: 20vh;
     width: auto;
     align-items: center;
     display: flex;
-    box-shadow: 0 0 5px gray;
+    box-shadow: 0 0 10px rgb(172, 172, 172);
+    background-color: rgb(255, 180, 180);
 }
 
 footer h4 {
     margin: auto;
+
 }
